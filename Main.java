@@ -1,22 +1,38 @@
-package com.hcl2;
-import java.util.*;
+package com.javatrain;
+class Add{
+    public Add() {
+        System.out.println("hi");
+    }
+    Add(int i)
+    {
+        System.out.println("hello");
+    }
+    Add(int i,int i1)
+    {
+        System.out.println("hi hello");
+    }
+}
+class Sub
+{
+    public Sub() {
+        System.out.println("akshu");
+    }
+    Sub(int i)
+    {
+        super(i);
+        System.out.println("swetha");
+    }
+   /* Sub(int i,int i1)
+    {
+        super(i,i1);
+        System.out.println("sister");
+    }
+}*/
 public class Main {
 
     public static void main(String[] args) {
-	String s;
-	String s1;
-Scanner in=new Scanner(System.in);
-	System.out.println("enter humpty sentence:");
-	s=in.nextLine();
-        System.out.println("enter humpty sentence:");
-	s1=in.nextLine();
-	if(s.contains(s1))
-    {
-        System.out.println("Found");
-    }
-	else
-    {
-        System.out.println("Not Found");
-    }
+        Sub s=new Sub(10);
+
+
     }
 }
