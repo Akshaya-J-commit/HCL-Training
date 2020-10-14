@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      
+    <script src="app.js" defer> </script>
+
+</head>
+<body>
+    <center>
+    <h1>Events List</h1>
+    <div class="input">
+    
+    <label >Enter the Events :</label>
+
+    <input id="eventname" type="text" name="eventname">
+    </div>
+</center>
+    <div> 
+        <center>
+        <button id="add" >Push</button>
+        <button id="pop">Pop</button>
+        <button id="display" onclick="show()">Display Event</button>
+        
+        <p id="msg"></p>
+        
+    </center>
+    </div>
+  
+    <div id="dis" class="answer_list" > 
+        <center><b><h2>Event in the array</h2></b>
+            <ul id="ul"></ul>
+        </center>
+       
+    </div>
+</body>
+</html>
